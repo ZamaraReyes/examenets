@@ -15,5 +15,26 @@ public class Calculadora {
     public static void main(String[] args) {
         // TODO code application logic here
     }
+
+    /**
+     * @return the operador1
+     */
+    public String getOperador1() {
+        return operador1;
+    }
+
+    /**
+     * @return the operador2
+     */
+    public String getOperador2() {
+        return operador2;
+    }
+
+    /**
+     * @return the operacion
+     */
+    public String getOperacion() {
+        return operacion;
+    }
     
 }
