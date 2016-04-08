@@ -36,5 +36,26 @@ public class Calculadora {
     public String getOperacion() {
         return operacion;
     }
+
+    /**
+     * @param operador1 the operador1 to set
+     */
+    public void setOperador1(String operador1) {
+        this.operador1 = operador1;
+    }
+
+    /**
+     * @param operador2 the operador2 to set
+     */
+    public void setOperador2(String operador2) {
+        this.operador2 = operador2;
+    }
+
+    /**
+     * @param operacion the operacion to set
+     */
+    public void setOperacion(String operacion) {
+        this.operacion = operacion;
+    }
     
 }
